@@ -70,3 +70,225 @@ h1 {
     color: #95afc0;
     opacity: 0.55;
 }
+
+.card {
+    max-width: 666px;
+    margin: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.area {
+    width: 100%;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    text-align: center;
+}
+
+.area img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #00bc8c;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.analysis-card {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-card h4 {
+    margin-bottom: 15px;
+}
+
+.analysis-card p {
+    margin: 5px 0;
+}
+
+.card {
+    max-width: 666px;
+    margin: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.area {
+    width: 100%;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    text-align: center;
+}
+
+.area img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #00bc8c;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.analysis-card {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 1s ease;
+}
+
+.analysis-card h4 {
+    margin-bottom: 15px;
+}
+
+.analysis-card p {
+    margin: 5px 0;
+}
+
+.green-background {
+    background-color: #d4edda;
+}
+
+.red-background {
+    background-color: #f8d7da;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.area {
+    position: relative;
+}
+
+.area label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.area label:hover {
+    color: #007bff;
+}
+
+.analysis-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.analysis-card h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.analysis-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.red-background {
+    background-color: #ffcccc;
+}
+
+.green-background {
+    background-color: #ccffcc;
+}
+
+
+/* Footer.css */
+
+.logo {
+    width: 50px;
+    /* Adjust size as needed */
+    height: 50px;
+    /* Adjust size as needed */
+}
+
+.btn-scan-now {
+    background-color: #007bff;
+    /* Default background color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    /* Add transitions */
+}
+
+.btn-scan-now:hover {
+    transform: translateY(-5px);
+    /* Add hover animation */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Additional styles for the navbar */
+
+.navbar {
+    background: linear-gradient(to right, #ffffff, #f2f2f2);
+    /* Light gradient color */
+    /* Add any other styles as needed */
+}
